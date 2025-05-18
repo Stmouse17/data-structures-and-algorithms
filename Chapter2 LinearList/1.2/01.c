@@ -136,7 +136,7 @@ int main()
 	TailInsert(Hb, 8);
 	TailInsert(Hb, 32);
 	TailInsert(Hb, 117);
-	Node* Hc = MergeList(Ha, Hb);
+	Node* Hc = MergeList1(Ha, Hb);
 	PrintList(Hc);
 	printf("%d ", Hc->data);
 	return 0;
