@@ -3,11 +3,11 @@
 #define FALSE 0
 #define TRUE 1
 
-typedef struct
+typedef struct Node
 {
-	Node* pre;
+	struct Node* pre;
 	int data;
-	Node* next;
+	struct Node* next;
 }Node;
 
 Node* InitList()
