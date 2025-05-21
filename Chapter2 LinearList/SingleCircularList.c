@@ -3,10 +3,10 @@
 #define FLASE 0
 #define TRUE 1
 
-typedef struct
+typedef struct Node
 {
 	int data;
-	Node* next;
+	struct Node* next;
 }Node;
 
 Node* InitList()
