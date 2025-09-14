@@ -87,8 +87,8 @@ Node* Difference1(Node* Ha, Node* Hb)
 	return Hc;
 }
 
-Node* Difference2(Node* Ha, Node* Hb)	//¸Ä½ø°æ±¾£¬Hb²»±»¸ü¸Ä£¬½ö×÷²Î¿¼£¬ÉèÖÃpreÇ°Çý·½±ãÉ¾³ý
-{										//HaÖÐµÄÖØ¸´Ïî
+Node* Difference2(Node* Ha, Node* Hb)	//æ”¹è¿›ç‰ˆæœ¬ï¼ŒHbä¸è¢«æ›´æ”¹ï¼Œä»…ä½œå‚è€ƒï¼Œè®¾ç½®preå‰é©±æ–¹ä¾¿åˆ é™¤
+{										//Haä¸­çš„é‡å¤é¡¹
 	Node* pa = Ha->next;
 	Node* pb = Hb->next;
 	Node* pre = Ha;
