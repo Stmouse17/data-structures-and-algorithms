@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//�ر�˵������Ŀ��ģ��ԭ�����Ƕ�������������빹����������
-//�ڱȽ�ʱʹ��data��ʹ��Node*ָ�롣
-//�����˵������Ҫȡ��
+//特别说明，题目中模型原则上是二叉树，下面代码构造两个链表
+//在比较时使用data不使用Node*指针。
+//申教授说尽量不要取巧
 
 typedef struct Node
 {
