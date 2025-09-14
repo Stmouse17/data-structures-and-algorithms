@@ -13,22 +13,22 @@ int Partition(int a[], int n)
 		int pivot = a[l];
 		while (l < r)
 		{
-			while (r > l && a[r] >= pivot)	//确保r>l避免stack overflow
+			while (r > l && a[r] >= pivot)	//纭繚r>l閬垮厤stack overflow
 				r--;
 			a[l] = a[r];
-			while (r > l && a[l] <= pivot)	//确保r>l避免stack overflow
+			while (r > l && a[l] <= pivot)	//纭繚r>l閬垮厤stack overflow
 				l++;
 			a[r] = a[l];
 		}
 		a[l] = pivot;
 		if (l < k - 1)
 		{
-			left = ++l;		//更新数组起止点避免stack overflow
+			left = ++l;		//鏇存柊鏁扮粍璧锋鐐归伩鍏峴tack overflow
 			r = right;
 		}
 		else if (l > k - 1)
 		{
-			right = ++r;	//更新数组起止点避免stack overflow
+			right = ++r;	//鏇存柊鏁扮粍璧锋鐐归伩鍏峴tack overflow
 			l = left;
 		}
 	}
