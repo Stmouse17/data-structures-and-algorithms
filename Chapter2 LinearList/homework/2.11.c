@@ -3,7 +3,7 @@
 #define FALSE 0
 #define TRUE 1
 
-//为了方便，next指题目的link。
+//脦陋脕脣路陆卤茫拢卢next脰赂脤芒脛驴碌脛link隆拢
 
 typedef struct Node
 {
